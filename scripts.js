@@ -15,7 +15,7 @@ document.getElementById("third").style.backgroundColor = barva;
 
 }*/
 
-$('#third').on('click',() =>{
+$('#third').one('click',() =>{
     
   let changeColor = document.getElementById("barva").value;
   $('button').css('background', changeColor);
