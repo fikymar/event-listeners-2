@@ -1,16 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <button id="first"class="barevny" >Click me!</button>
-    <button id="second" class="barevny">Click me too!</button>
-    <button id="third" class="barevny" onclick="myFunction()">Change color!</button>
-<input  type="text" id="barva" value="blue">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="scripts.js"></script>
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Color changer</title>
+	</head>
+	<body>
+		<div class="container">
+			<label for="colorInput" title="Text, hex code, rgb, rgba"
+				>Write a color:
+			</label>
+			<input type="text" id="colorInput" value="pink" />
+			<button
+				id="first"
+				title="U can change input and click me again"
+				class="colorBTN"
+			>
+				Change something
+			</button>
+			<button
+				id="second"
+				title="U can change input and click me again"
+				class="colorBTN"
+			>
+				Change something
+			</button>
+			<button
+				id="third"
+				title="U can change input and click me again"
+				class="colorBTN"
+			>
+				Change something
+			</button>
+			<sub class="hidden">But no as you expected</sub>
+		</div>
+		<script src="scripts.js"></script>
+	</body>
 </html>
