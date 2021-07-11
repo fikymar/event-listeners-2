@@ -1,4 +1,39 @@
-button {
-    width: 30px;
-    display: block;
+body {
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	display: grid;
+	height: 100vh;
+	width: 100vw;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	place-self: center;
+	padding: 2rem;
+}
+button,
+input {
+	margin-top: 1rem;
+	font-weight: 700;
+	height: 2rem;
+	/*max-width: 30%;*/
+	border-radius: 10px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+input {
+	background-color: black;
+	color: white;
+}
+
+label {
+	text-decoration: underline;
+	text-decoration-thickness: 5px;
+	text-decoration-color: pink;
+}
+
+.hidden {
+	display: none;
 }
